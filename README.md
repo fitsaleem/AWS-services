@@ -1,2 +1,1 @@
-# AWS-services
-# AWS-services
+# AWS Developer Assiosiate
