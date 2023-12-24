@@ -8,6 +8,8 @@ Definition: A VPC is a logically isolated section of the AWS Cloud where you can
 
 Analogy: Think of it as your own private section of the AWS cloud, like having your own piece of the internet within AWS.
 
+**Important: VPC always in region level while subnet are in Availability Zone**
+
 **2. Subnet:**
 
 Definition: A range of IP addresses in your VPC. You can create subnets to divide your VPC's IP address range and control the routing between them.
@@ -144,6 +146,29 @@ For example, if you have the CIDR 192.168.1.0/24, it means the network range is 
 IP Range: 192.168.1.0 to 192.168.1.255
 Usable IPs: 192.168.1.1 to 192.168.1.254 (excluding network and broadcast addresses)
 CIDR notation is a way to express subnet masks in a more concise and flexible manner, making it easier to manage and allocate IP addresses in networks of varying sizes.
+
+**lets create one VPC and four Subnets of that VPC**
+
+***VPC: *** 
+
+192.168.0.0/16   so the range will be now 192.168.0.0 - 192.168.225.225
+
+***now Subnet:***
+
+network-1:  192.168.1.0/24 so the range will 192.168.1.0 - 192.168.1.225
+
+network-2:  192.168.2.0/24 so the range will 192.168.2.0 - 192.168.1.225
+
+network-3:  192.168.3.0/24 so the range will 192.168.3.0 - 192.168.3.225
+
+network-4:  192.168.4.0/24 so the range will 192.168.4.0 - 192.168.4.225
+
+
+
+
+
+
+
 
 
 

@@ -38,3 +38,5 @@ RDP (Port 3389): If your instance is running Windows, the Remote Desktop Protoco
 # What is Elastic IP in AWS EC2?
 
 An Elastic IP address in AWS is a static, public IPv4 address that you can allocate to your AWS resources, such as EC2 instances. Unlike the default public IP address assigned to EC2 instances, which can change when you stop and start the instance, an Elastic IP remains constant as long as you choose to retain it.
+
+
