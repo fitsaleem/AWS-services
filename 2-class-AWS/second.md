@@ -1,3 +1,7 @@
+# second class
+
+cloudping.info : you can check the speed of data centers 
+
 # regions in aws: 
 
 Amazon cloud computing resources are hosted in multiple locations world-wide. These locations are composed of AWS Regions, Availability Zones, and Local Zones. Each AWS Region is a separate geographic area. Each AWS Region has multiple, isolated locations known as Availability Zones.
