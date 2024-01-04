@@ -61,5 +61,50 @@
 2: Federation: IAM supports federation with external identity providers (such as Active Directory) using standard protocols like SAML and OpenID Connect. This allows you to use your existing identity management infrastructure and extend it to your AWS resources.
 
 
+Types of cloud computing:
+1: on-premises
+2:laas
+3:paas
+4:saas
+
+
+
+
+
+
+services:
+
+IAAS
+platform as a service 
+software as a service
+
+
+hamra stack developer assiosiate
+
+
+we learn IAS:
+
+
+
+
+3 ways to connect aws:
+
+portal (management console)
+cli
+sdk
+
+we study about budgets how to manage it.
+
+
+
+storages:
+
+1: storage with ec2
+
+ec2 called amazon machine image (AMI)
+
+
+
+
 
 
