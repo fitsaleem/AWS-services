@@ -41,3 +41,23 @@ This way, CloudWatch and Auto Scaling work together to ensure that your applicat
 # digram of auto scaling:
 
 ![aws-auto-scaling-elb](https://jayendrapatil.com/wp-content/uploads/2016/06/Screen-Shot-2016-06-07-at-4.13.10-PM.png)
+
+# Amazon Elastic Block Store (EBS) 
+
+Amazon Elastic Block Store (EBS) provides raw block-level storage that can be attached to Amazon EC2 instances and is used as primary storage for instances. Each EBS volume is automatically replicated within its Availability Zone to protect you from component failure.
+
+Here are some key features of Amazon EBS:
+
+1. **Durability and Performance**: Amazon EBS volumes are designed to provide consistent and low-latency performance. They are built on solid-state drives (SSD) and hard disk drives (HDD) to deliver millions of IOPS and throughput.
+
+2. **Data Persistence**: Data on EBS volumes persists independently from the life of the instance. This means that even if you stop or terminate an instance, the data on the EBS volume remains intact.
+
+3. **Volume Types**: Amazon EBS offers several types of volumes optimized to different use cases including General Purpose SSD (gp2), Provisioned IOPS SSD (io1), Throughput Optimized HDD (st1), Cold HDD (sc1), and Magnetic (standard).
+
+4. **Snapshotting**: You can create snapshots of your EBS volumes, which are point-in-time copies of your data. Snapshots are stored in Amazon S3 and can be used to create new volumes or to restore your data to a previous state.
+
+5. **Encryption**: Amazon EBS supports encryption of data at rest. You can encrypt your EBS volumes using keys managed by AWS Key Management Service (KMS).
+
+6. **Backups**: Amazon EBS does not automatically backup your data. You should regularly back up your data to Amazon S3 or another storage service.
+
+Remember, while EBS volumes are highly durable, they are not designed to be used as a primary database storage solution. For databases, consider using Amazon RDS or DynamoDB.
